@@ -1,7 +1,7 @@
-D:\eclipse4.2\iemp\spring-mybatis\src\main\java\cn\com\city\App.java
-D:\eclipse4.2\iemp\spring-mybatis\src\main\java\cn\com\city\bean\UserBean.java
-D:\eclipse4.2\iemp\spring-mybatis\src\main\java\cn\com\city\service\UserServiceImpl.java
-D:\eclipse4.2\iemp\spring-mybatis\src\main\java\cn\com\city\controller\LoginController.java
-D:\eclipse4.2\iemp\spring-mybatis\src\main\java\cn\com\city\service\IUserService.java
-D:\eclipse4.2\iemp\spring-mybatis\src\main\java\cn\com\city\dao\UserDAOIpml.java
-D:\eclipse4.2\iemp\spring-mybatis\src\main\java\cn\com\city\dao\IUserDAO.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\dao\IUserDAO.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\controller\LoginController.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\App.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\service\IUserService.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\dao\UserDAOIpml.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\bean\UserBean.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\service\UserServiceImpl.java

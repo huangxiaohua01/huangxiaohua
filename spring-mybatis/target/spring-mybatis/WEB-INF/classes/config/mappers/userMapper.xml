@@ -3,6 +3,8 @@
 <mapper namespace="cn.com.city.mapper.UserMapper">  
 	<resultMap id="userMap" type="cn.com.city.bean.UserBean">
 		<result property="id" column="ID"/>
+		<result property="name" column="NAME"/>
+		<result property="password" column="PASSWORD"/>
 	</resultMap>
 	<insert id="addUser" parameterType="UserBean" >
 		INSERT INTO t_user (NAME,PASSWORD)VALUES (#{name},#{password});
@@ -11,4 +13,9 @@
 	<insert id="addLog" >
 		INSERT INTO t_log (CREATETIME) VALUES (SYSDATE());
 	</insert>
+	
+	<select id="queryUser" resultMap="userMap">
+		SELECT * FROM t_user;
+	</select>
+	
 </mapper>
