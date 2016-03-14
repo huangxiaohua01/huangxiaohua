@@ -41,8 +41,8 @@ public class LoginController {
 	public String login(HttpServletRequest request,HttpServletResponse response, UserBean userBean,Model model){
 		
 		userService.addUser(userBean);
-		List<UserBean> user=userService.queryUser();
-		model.addAttribute("user", user.get(0));
+		List<UserBean> userList=userService.queryUser();
+		model.addAttribute("user", userList);
 		return "index";
 	}
 }

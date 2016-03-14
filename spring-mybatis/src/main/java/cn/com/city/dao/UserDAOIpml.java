@@ -17,8 +17,9 @@ public class UserDAOIpml extends SqlSessionDaoSupport implements IUserDAO  {
 	
 	@Override
 	public void addUser(UserBean user) {
-		this.getSqlSession().insert(USERMAPPER+"addUser", user);
 		
+		this.getSqlSession().insert(USERMAPPER+"addUser", user);
+		testRedis("user", user.getName());
 	}
 
 	@Override
@@ -27,7 +28,10 @@ public class UserDAOIpml extends SqlSessionDaoSupport implements IUserDAO  {
 		return this.getSqlSession().selectList(USERMAPPER+"queryUser");
 	}
 	
-
+	private void  testRedis(String key ,String value){
+		
+		RedisClass.setRedis(key, value);
+	}
 
 
 
