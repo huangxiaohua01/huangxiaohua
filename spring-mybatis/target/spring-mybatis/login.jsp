@@ -28,7 +28,7 @@
  	</form>
 	
 	<script type="text/javascript">
-		var url="/tomcat-nginx/user";
+		var url="/spring-mybatis";
 		function show(){
 			$.ajax({
 				type:"post",

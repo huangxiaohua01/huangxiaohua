@@ -1,7 +1,9 @@
 D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\dao\IUserDAO.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\dao\RedisClass.java
 D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\controller\LoginController.java
 D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\App.java
 D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\service\IUserService.java
 D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\dao\UserDAOIpml.java
+D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\service\FtpClass.java
 D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\bean\UserBean.java
 D:\codeRepositry\Git\huangxiaohua\spring-mybatis\src\main\java\cn\com\city\service\UserServiceImpl.java

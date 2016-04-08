@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.009" errors="0" skipped="0" tests="1" name="cn.com.city.AppTest">
+<testsuite failures="0" time="0.003" errors="0" skipped="0" tests="1" name="cn.com.city.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files (x86)\myEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\eclipse4.2\iemp\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6616248643120993952.tmp"/>
+    <property name="classworlds.conf" value="D:\eclipse4.2\iemp\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2205799756310037973.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="D:\Program Files (x86)\myEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files (x86)/myEclipse2014/binary/com.sun.java.jdk7.win32.x86_64_1.7.0.u45/bin/../jre/bin/server;D:/Program Files (x86)/myEclipse2014/binary/com.sun.java.jdk7.win32.x86_64_1.7.0.u45/bin/../jre/bin;D:/Program Files (x86)/myEclipse2014/binary/com.sun.java.jdk7.win32.x86_64_1.7.0.u45/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\myEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\bin;D:\Program Files (x86)\myEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin;D:\buildTools\apache-maven-3.3.9\bin;C:\Program Files\TortoiseSVN\bin;D:\Program Files\VisualSVN Server\bin;D:\javaTools\eclipse-jee-juno-SR2-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.002" classname="cn.com.city.AppTest" name="testApp"/>
+  <testcase time="0" classname="cn.com.city.AppTest" name="testApp"/>
 </testsuite>

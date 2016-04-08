@@ -5,10 +5,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+
+	<title>Insert title here</title>
+ 	<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style-metro.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style-responsive.css" rel="stylesheet" type="text/css"/>
+     <link href="css/uniform.default.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/DT_bootstrap.css" />
+    <link rel="shortcut icon" href="image/favicon.ico" />
 </head>
 <body>
- 	<table border="1">
+ 	<table >
        	<c:forEach var="element" items="${user}">
        		<tr>
        			<td>${element.name}</td>

@@ -7,6 +7,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -43,6 +44,13 @@ public class LoginController {
 		userService.addUser(userBean);
 		List<UserBean> userList=userService.queryUser();
 		model.addAttribute("user", userList);
-		return "index";
+		return "main";
+	}
+	
+	@RequestMapping(value="/getAll",method = RequestMethod.GET)
+	public String getUser(HttpServletRequest rquest,HttpServletResponse response){
+		List<UserBean> userList=userService.queryUser();
+		JSONObject json =new JSONObject(userList.get(0));
+		return json.toString();
 	}
 }
